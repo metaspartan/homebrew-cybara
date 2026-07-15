@@ -1,15 +1,15 @@
 class Cybara < Formula
   desc "Self-hosted, open-source AI agent platform (CLI)"
   homepage "https://cybara.ai"
-  version "1.0.1627"
+  version "1.0.1630"
   license "MIT"
   on_macos do
-    on_arm { url "https://github.com/metaspartan/cybara/releases/download/v1.0.1627/cybara-v1.0.1627-darwin-arm64-cli"; sha256 "f3200d8792c05f98a90f5d11bd93471a630edb300233c3f80bdcb7d5c679d89c" }
-    on_intel { url "https://github.com/metaspartan/cybara/releases/download/v1.0.1627/cybara-v1.0.1627-darwin-x64-cli"; sha256 "2ce69b74ebcf3ce8fc570cffced26a5b72cdd96349f1ce0f95d8d009c54457b7" }
+    on_arm { url "https://github.com/metaspartan/cybara/releases/download/v1.0.1630/cybara-v1.0.1630-darwin-arm64-cli"; sha256 "db5906f770c14eb5cebede9da6a57d0eae66e00abb00e2680b5734facddeebd3" }
+    on_intel { url "https://github.com/metaspartan/cybara/releases/download/v1.0.1630/cybara-v1.0.1630-darwin-x64-cli"; sha256 "8d861f5ed2e61eb823e5730a7fa6ece7a0cd8ffdfb8f3f170049517854b65c3b" }
   end
   on_linux do
-    on_arm { url "https://github.com/metaspartan/cybara/releases/download/v1.0.1627/cybara-v1.0.1627-linux-arm64-cli"; sha256 "a2342f7dfda76267b36fadb9b1f60fc8d980826cdfaab1a33af5047612e24e28" }
-    on_intel { url "https://github.com/metaspartan/cybara/releases/download/v1.0.1627/cybara-v1.0.1627-linux-x64-cli"; sha256 "174071f86eb724ea65a087eefd80d8262879117db6007f4af41569f1bfdde5b6" }
+    on_arm { url "https://github.com/metaspartan/cybara/releases/download/v1.0.1630/cybara-v1.0.1630-linux-arm64-cli"; sha256 "e92baebca53de53c10ce92ec20f7bb5af6b2cffd4102a4fa21d27684d21616cb" }
+    on_intel { url "https://github.com/metaspartan/cybara/releases/download/v1.0.1630/cybara-v1.0.1630-linux-x64-cli"; sha256 "df7f4eff0210ba3a23bb54985537cd8be1925c280225b2508a41e1b74070f361" }
   end
   def install
     bin.install Dir["*"].first => "cybara"
