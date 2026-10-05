@@ -1,7 +1,7 @@
 cask "cybara" do
-  version "1.0.2484"
-  on_arm { sha256 "f6ff97e5e51af1ae8deca54dfb1c5a6295424022a8c7f0c6cc2cb510beb677f4"; url "https://github.com/metaspartan/cybara/releases/download/v1.0.2484/Cybara_#{version}_aarch64.dmg" }
-  on_intel { sha256 "99cc366c6ab78be33881947432b484f3d5f6f67313756522105a569827f99a50"; url "https://github.com/metaspartan/cybara/releases/download/v1.0.2484/Cybara_#{version}_x64.dmg" }
+  version "1.0.2491"
+  on_arm { sha256 "6041187f334a3316cf45e2fbb26c9c5c8d647f318f64f292df6be5ac9c649e74"; url "https://github.com/metaspartan/cybara/releases/download/v1.0.2491/Cybara_#{version}_aarch64.dmg" }
+  on_intel { sha256 "5c793cbb65a1dcaaee9c78bbd854197b29126ea7047a68ccfdbe80e5fb8b4c45"; url "https://github.com/metaspartan/cybara/releases/download/v1.0.2491/Cybara_#{version}_x64.dmg" }
   name "Cybara"
   desc "Self-hosted, open-source AI agent platform"
   homepage "https://cybara.ai"
